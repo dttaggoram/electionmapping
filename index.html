@@ -32,7 +32,14 @@ p {
     font-size: 10px;
 }
 </style>
-<svg xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" width="740" height="955" viewBox="0,0,1476.5,1925.137">
+<center><h1>Election Results</h1></center>
+<div>
+Map type:
+<input type="radio" name="map" value="equal" checked="checked">Equal
+<input type="radio" name="map" value="female">Geographical
+</div>
+<br />
+<svg id="equmap" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" viewBox="0,0,1476.5,1925.137">
 <g>
 <g id="scotland">
 <polygon id="Orkney__Shetland" class="seat " points="696.5,43.151 684,21.5 659,21.5 646.5,43.151 659,64.802 684,64.802" />
@@ -723,8 +730,8 @@ p {
 </g>
 </g>
 </svg>
-<div style="position:absolute; left:750px; top:50px;">
-<h1>Election Results</h1>
+<div id="info" style="position:absolute; top:50px;">
+
 <table>
 	<tr>
 		<td>Party</td>
@@ -856,9 +863,32 @@ p {
 </div>
 </div>
 <script type="text/javascript">
+windowwidth = $(window).width();
+windowheight = $(window).height();
+$("#equmap").width(windowwidth/2);
+$("#equmap").height(windowheight);
+$("#info").css("left",windowwidth/2);
+$("#info").width(windowwidth-100/2);
 
-//var url = "http://en.wikipedia.org/w/api.php?format=json&action=query&titles=Results_of_the_2010_United_Kingdom_general_election_by_parliamentary_stituency&prop=revisions&rvprop=tent";
-var url = "wiki.json";
+
+
+
+$("#scotland").click(function(e) {
+
+	var offset = $(this).offset();
+    xaxis = (e.pageX - offset.left)*2;
+    yaxis = (e.pageY - offset.top)*2;
+    $("svg").each(function () { $(this)[0].setAttribute("viewBox", xaxis + " " + yaxis + " 700 950") });
+    $("#north-west").css("opacity","0.2");
+    $("#north-east").css("opacity","0.2");
+  });
+
+$( "#info" ).click(function() {
+  $('svg').each(function () { $(this)[0].setAttribute('viewBox', '0,0,1476.5,1925.137') });
+});
+
+var url = "http://en.wikipedia.org/w/api.php?format=json&action=query&titles=Results_of_the_2010_United_Kingdom_general_election_by_parliamentary_constituency&prop=revisions&rvprop=content&callback=?";
+//var url = "wiki.json";
 $.getJSON( url, function( data ) {
 pagecontent = data.query.pages[32049983].revisions[0]['*'].split('(UK Parliament constituency)');
 
