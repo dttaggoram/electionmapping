@@ -1,10 +1,10 @@
 <html version="1.0" encoding="UTF-8" standalone="no"?>
 <script src='jquery-1.6.min.js'></script>
-
-<svg xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" width="740" height="955" viewBox="0,0,1476.5,1925.137">
 <style type="text/css">
 .border { stroke: #000000; fill: none; stroke-width: 5; }
-.seat { stroke: #999999; fill: #ffffff; stroke-width: 1; }
+.seat { stroke: #999999; fill: #ffffff; stroke-width: 1; opacity:0.5; }
+.seat2010 { stroke: #999999; fill: #ffffff; stroke-width: 1; opacity:0.5; }
+.seat2015 { stroke: #999999; fill: #ffffff; stroke-width: 2; }
 .undeclared { }
 .con { fill: #333399; }
 .lab { fill: #CC0000; }
@@ -18,38 +18,52 @@
 .ap { fill: #FFCC01; }
 .ind { fill: #BBBBBB; }
 .oth { fill: #999999; }
+.ukip { fill: #70147A; }
+body { font-family: "Lucida Console", Times, serif;}
+h1 {
+    font-size: 30px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+p {
+    font-size: 10px;
+}
 </style>
+<svg xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" width="740" height="955" viewBox="0,0,1476.5,1925.137">
 <g>
 <g id="scotland">
 <polygon id="Orkney__Shetland" class="seat " points="696.5,43.151 684,21.5 659,21.5 646.5,43.151 659,64.802 684,64.802" />
-<polygon id="Caithness_Sutherland__Easter_Ross" class="seat " points="584,108.104 571.5,86.453 546.5,86.453 534,108.104 546.5,129.755 571.5,129.755" />
+<polygon id="Caithness__Sutherland__Easter_Ross" class="seat " points="584,108.104 571.5,86.453 546.5,86.453 534,108.104 546.5,129.755 571.5,129.755" />
 <polygon id="Banff__Buchan" class="seat " points="696.5,129.755 684,108.104 659,108.104 646.5,129.755 659,151.406 684,151.406" />
-<polygon id="Na_H-Eileanan_An_Iar_Western_Isles" class="seat " points="509,151.406 496.5,129.755 471.5,129.755 459,151.406 471.5,173.057 496.5,173.057" />
-<polygon id="Ross_Skye__Lochaber" class="seat " points="584,151.406 571.5,129.755 546.5,129.755 534,151.406 546.5,173.057 571.5,173.057" />
+<polygon id="Na_h-Eileanan_an_Iar__Western_Isles_" class="seat " points="509,151.406 496.5,129.755 471.5,129.755 459,151.406 471.5,173.057 496.5,173.057" />
+<polygon id="Ross__Skye__Lochaber" class="seat " points="584,151.406 571.5,129.755 546.5,129.755 534,151.406 546.5,173.057 571.5,173.057" />
 <polygon id="Gordon" class="seat " points="659,151.406 646.5,129.755 621.5,129.755 609,151.406 621.5,173.057 646.5,173.057" />
 <polygon id="Aberdeen_North" class="seat " points="734,151.406 721.5,129.755 696.5,129.755 684,151.406 696.5,173.057 721.5,173.057" />
-<polygon id="Inverness_Nairn_Badenoch__Strathspey" class="seat " points="621.5,173.057 609,151.406 584,151.406 571.5,173.057 584,194.708 609,194.708" />
+<polygon id="Inverness__Nairn__Badenoch__Strathspey" class="seat " points="621.5,173.057 609,151.406 584,151.406 571.5,173.057 584,194.708 609,194.708" />
 <polygon id="Aberdeenshire_West__Kincardine" class="seat " points="696.5,173.057 684,151.406 659,151.406 646.5,173.057 659,194.708 684,194.708" />
 <polygon id="Aberdeen_South" class="seat " points="771.5,173.057 759,151.406 734,151.406 721.5,173.057 734,194.708 759,194.708" />
 <polygon id="Stirling" class="seat " points="584,194.708 571.5,173.057 546.5,173.057 534,194.708 546.5,216.359 571.5,216.359" />
 <polygon id="Moray" class="seat " points="659,194.708 646.5,173.057 621.5,173.057 609,194.708 621.5,216.359 646.5,216.359" />
 <polygon id="Angus" class="seat " points="734,194.708 721.5,173.057 696.5,173.057 684,194.708 696.5,216.359 721.5,216.359" />
 <polygon id="Argyll__Bute" class="seat " points="546.5,216.359 534,194.708 509,194.708 496.5,216.359 509,238.01 534,238.01" />
-<polygon id="Perth__Perthshire_North" class="seat " points="621.5,216.359 609,194.708 584,194.708 571.5,216.359 584,238.01 609,238.01" />
+<polygon id="Perth__North_Perthshire" class="seat " points="621.5,216.359 609,194.708 584,194.708 571.5,216.359 584,238.01 609,238.01" />
 <polygon id="Dundee_East" class="seat " points="696.5,216.359 684,194.708 659,194.708 646.5,216.359 659,238.01 684,238.01" />
 <polygon id="Dunbartonshire_West" class="seat " points="584,238.01 571.5,216.359 546.5,216.359 534,238.01 546.5,259.661 571.5,259.661" />
 <polygon id="Ochil__South_Perthshire" class="seat " points="659,238.01 646.5,216.359 621.5,216.359 609,238.01 621.5,259.661 646.5,259.661" />
 <polygon id="Dundee_West" class="seat " points="734,238.01 721.5,216.359 696.5,216.359 684,238.01 696.5,259.661 721.5,259.661" />
 <polygon id="Paisley__Renfrewshire_North" class="seat " points="546.5,259.661 534,238.01 509,238.01 496.5,259.661 509,281.312 534,281.312" />
-<polygon id="Cumbernau_Kilsyth__Kirkintilloch_East" class="seat " points="621.5,259.661 609,238.01 584,238.01 571.5,259.661 584,281.312 609,281.312" />
-<polygon id="Dunfermline__West_Fife" class="seat " points="696.5,259.661 684,238.01 659,238.01 646.5,259.661 659,281.312 684,281.312" />
+<polygon id="Cumbernauld__Kilsyth__Kirkintilloch_East" class="seat " points="621.5,259.661 609,238.01 584,238.01 571.5,259.661 584,281.312 609,281.312" />
+<polygon id="Dunfermline__Fife_West" class="seat " points="696.5,259.661 684,238.01 659,238.01 646.5,259.661 659,281.312 684,281.312" />
 <polygon id="Fife_North_East" class="seat " points="771.5,259.661 759,238.01 734,238.01 721.5,259.661 734,281.312 759,281.312" />
 <polygon id="Dunbartonshire_East" class="seat " points="584,281.312 571.5,259.661 546.5,259.661 534,281.312 546.5,302.963 571.5,302.963" />
 <polygon id="Falkirk" class="seat " points="659,281.312 646.5,259.661 621.5,259.661 609,281.312 621.5,302.963 646.5,302.963" />
 <polygon id="Glenrothes" class="seat " points="734,281.312 721.5,259.661 696.5,259.661 684,281.312 696.5,302.963 721.5,302.963" />
 <polygon id="Glasgow_North_West" class="seat " points="546.5,302.963 534,281.312 509,281.312 496.5,302.963 509,324.614 534,324.614" />
 <polygon id="Glasgow_North_East" class="seat " points="621.5,302.963 609,281.312 584,281.312 571.5,302.963 584,324.614 609,324.614" />
-<polygon id="Kirkcay__Cowdenbeath" class="seat " points="696.5,302.963 684,281.312 659,281.312 646.5,302.963 659,324.614 684,324.614" />
+<polygon id="Kirkcaldy__Cowdenbeath" class="seat " points="696.5,302.963 684,281.312 659,281.312 646.5,302.963 659,324.614 684,324.614" />
 <polygon id="Inverclyde" class="seat " points="509,324.614 496.5,302.963 471.5,302.963 459,324.614 471.5,346.265 496.5,346.265" />
 <polygon id="Glasgow_North" class="seat " points="584,324.614 571.5,302.963 546.5,302.963 534,324.614 546.5,346.265 571.5,346.265" />
 <polygon id="Linlithgow__Falkirk_East" class="seat " points="659,324.614 646.5,302.963 621.5,302.963 609,324.614 621.5,346.265 646.5,346.265" />
@@ -60,7 +74,7 @@
 <polygon id="Airdrie__Shotts" class="seat " points="659,367.916 646.5,346.265 621.5,346.265 609,367.916 621.5,389.567 646.5,389.567" />
 <polygon id="Edinburgh_East" class="seat " points="734,367.916 721.5,346.265 696.5,346.265 684,367.916 696.5,389.567 721.5,389.567" />
 <polygon id="Paisley__Renfrewshire_South" class="seat " points="546.5,389.567 534,367.916 509,367.916 496.5,389.567 509,411.218 534,411.218" />
-<polygon id="Coatbridge_Chryston__Bellshill" class="seat " points="621.5,389.567 609,367.916 584,367.916 571.5,389.567 584,411.218 609,411.218" />
+<polygon id="Coatbridge__Chryston__Bellshill" class="seat " points="621.5,389.567 609,367.916 584,367.916 571.5,389.567 584,411.218 609,411.218" />
 <polygon id="Edinburgh_South_West" class="seat " points="696.5,389.567 684,367.916 659,367.916 646.5,389.567 659,411.218 684,411.218" />
 <polygon id="East_Lothian" class="seat " points="771.5,389.567 759,367.916 734,367.916 721.5,389.567 734,411.218 759,411.218" />
 <polygon id="Renfrewshire_East" class="seat " points="584,411.218 571.5,389.567 546.5,389.567 534,411.218 546.5,432.869 571.5,432.869" />
@@ -69,43 +83,43 @@
 <polygon id="Ayrshire_North__Arran" class="seat " points="546.5,432.869 534,411.218 509,411.218 496.5,432.869 509,454.52 534,454.52" />
 <polygon id="Glasgow_South" class="seat " points="621.5,432.869 609,411.218 584,411.218 571.5,432.869 584,454.52 609,454.52" />
 <polygon id="Edinburgh_South" class="seat " points="696.5,432.869 684,411.218 659,411.218 646.5,432.869 659,454.52 684,454.52" />
-<polygon id="East_Kilbride_Strathaven__Lesmahagow" class="seat " points="584,454.52 571.5,432.869 546.5,432.869 534,454.52 546.5,476.171 571.5,476.171" />
+<polygon id="East_Kilbride__Strathaven__Lesmahagow" class="seat " points="584,454.52 571.5,432.869 546.5,432.869 534,454.52 546.5,476.171 571.5,476.171" />
 <polygon id="Lanark__Hamilton_East" class="seat " points="659,454.52 646.5,432.869 621.5,432.869 609,454.52 621.5,476.171 646.5,476.171" />
-<polygon id="Berwickshire_Roxburgh__Selkirk" class="seat " points="734,454.52 721.5,432.869 696.5,432.869 684,454.52 696.5,476.171 721.5,476.171" />
+<polygon id="Berwickshire__Roxburgh__Selkirk" class="seat " points="734,454.52 721.5,432.869 696.5,432.869 684,454.52 696.5,476.171 721.5,476.171" />
 <polygon id="Ayrshire_Central" class="seat " points="546.5,476.171 534,454.52 509,454.52 496.5,476.171 509,497.822 534,497.822" />
 <polygon id="Kilmarnock__Loudoun" class="seat " points="621.5,476.171 609,454.52 584,454.52 571.5,476.171 584,497.822 609,497.822" />
 <polygon id="Livingston" class="seat " points="696.5,476.171 684,454.52 659,454.52 646.5,476.171 659,497.822 684,497.822" />
-<polygon id="Ayr_Carrick__Cumnock" class="seat " points="584,497.822 571.5,476.171 546.5,476.171 534,497.822 546.5,519.473 571.5,519.473" />
+<polygon id="Ayr__Carrick__Cumnock" class="seat " points="584,497.822 571.5,476.171 546.5,476.171 534,497.822 546.5,519.473 571.5,519.473" />
 <polygon id="Rutherglen__Hamilton_West" class="seat " points="659,497.822 646.5,476.171 621.5,476.171 609,497.822 621.5,519.473 646.5,519.473" />
 <polygon id="Midlothian" class="seat " points="734,497.822 721.5,476.171 696.5,476.171 684,497.822 696.5,519.473 721.5,519.473" />
 <polygon id="Dumfries__Galloway" class="seat " points="621.5,519.473 609,497.822 584,497.822 571.5,519.473 584,541.124 609,541.124" />
-<polygon id="Dumfriesshire_Clydesdale__Tweeddale" class="seat " points="696.5,519.473 684,497.822 659,497.822 646.5,519.473 659,541.124 684,541.124" />
+<polygon id="Dumfriesshire__Clydesdale__Tweeddale" class="seat " points="696.5,519.473 684,497.822 659,497.822 646.5,519.473 659,541.124 684,541.124" />
 </g>
 <g id="north-east">
 <polygon id="Wansbeck" class="seat " points="809,454.52 796.5,432.869 771.5,432.869 759,454.52 771.5,476.171 796.5,476.171" />
 <polygon id="Tynemouth" class="seat " points="884,454.52 871.5,432.869 846.5,432.869 834,454.52 846.5,476.171 871.5,476.171" />
-<polygon id="Berwick-Upon-Tweed" class="seat " points="771.5,476.171 759,454.52 734,454.52 721.5,476.171 734,497.822 759,497.822" />
+<polygon id="Berwick-upon-Tweed" class="seat " points="771.5,476.171 759,454.52 734,454.52 721.5,476.171 734,497.822 759,497.822" />
 <polygon id="Blyth_Valley" class="seat " points="846.5,476.171 834,454.52 809,454.52 796.5,476.171 809,497.822 834,497.822" />
-<polygon id="South_Shies" class="seat " points="921.5,476.171 909,454.52 884,454.52 871.5,476.171 884,497.822 909,497.822" />
-<polygon id="Newcastle_Upon_Tyne_North" class="seat " points="809,497.822 796.5,476.171 771.5,476.171 759,497.822 771.5,519.473 796.5,519.473" />
+<polygon id="South_Shields" class="seat " points="921.5,476.171 909,454.52 884,454.52 871.5,476.171 884,497.822 909,497.822" />
+<polygon id="Newcastle_upon_Tyne_North" class="seat " points="809,497.822 796.5,476.171 771.5,476.171 759,497.822 771.5,519.473 796.5,519.473" />
 <polygon id="Jarrow" class="seat " points="884,497.822 871.5,476.171 846.5,476.171 834,497.822 846.5,519.473 871.5,519.473" />
 <polygon id="Sunderland_Central" class="seat " points="959,497.822 946.5,476.171 921.5,476.171 909,497.822 921.5,519.473 946.5,519.473" />
 <polygon id="Hexham" class="seat " points="771.5,519.473 759,497.822 734,497.822 721.5,519.473 734,541.124 759,541.124" />
 <polygon id="Tyneside_North" class="seat " points="846.5,519.473 834,497.822 809,497.822 796.5,519.473 809,541.124 834,541.124" />
 <polygon id="Washington__Sunderland_West" class="seat " points="921.5,519.473 909,497.822 884,497.822 871.5,519.473 884,541.124 909,541.124" />
-<polygon id="Newcastle_Upon_Tyne_Central" class="seat " points="809,541.124 796.5,519.473 771.5,519.473 759,541.124 771.5,562.775 796.5,562.775" />
+<polygon id="Newcastle_upon_Tyne_Central" class="seat " points="809,541.124 796.5,519.473 771.5,519.473 759,541.124 771.5,562.775 796.5,562.775" />
 <polygon id="Gateshead" class="seat " points="884,541.124 871.5,519.473 846.5,519.473 834,541.124 846.5,562.775 871.5,562.775" />
 <polygon id="Easington" class="seat " points="959,541.124 946.5,519.473 921.5,519.473 909,541.124 921.5,562.775 946.5,562.775" />
 <polygon id="Blaydon" class="seat " points="771.5,562.775 759,541.124 734,541.124 721.5,562.775 734,584.426 759,584.426" />
-<polygon id="Newcastle_Upon_Tyne_East" class="seat " points="846.5,562.775 834,541.124 809,541.124 796.5,562.775 809,584.426 834,584.426" />
-<polygon id="Houghton__Sunderland_South" class="seat " points="921.5,562.775 909,541.124 884,541.124 871.5,562.775 884,584.426 909,584.426" />
+<polygon id="Newcastle_upon_Tyne_East" class="seat " points="846.5,562.775 834,541.124 809,541.124 796.5,562.775 809,584.426 834,584.426" />
+<polygon id="Houghton__South_Sunderland" class="seat " points="921.5,562.775 909,541.124 884,541.124 871.5,562.775 884,584.426 909,584.426" />
 <polygon id="Hartlepool" class="seat " points="996.5,562.775 984,541.124 959,541.124 946.5,562.775 959,584.426 984,584.426" />
 <polygon id="Durham_North_West" class="seat " points="809,584.426 796.5,562.775 771.5,562.775 759,584.426 771.5,606.077 796.5,606.077" />
-<polygon id="Durham_City_of" class="seat " points="884,584.426 871.5,562.775 846.5,562.775 834,584.426 846.5,606.077 871.5,606.077" />
+<polygon id="Durham__City_of" class="seat " points="884,584.426 871.5,562.775 846.5,562.775 834,584.426 846.5,606.077 871.5,606.077" />
 <polygon id="Stockton_North" class="seat " points="959,584.426 946.5,562.775 921.5,562.775 909,584.426 921.5,606.077 946.5,606.077" />
 <polygon id="Redcar" class="seat " points="1034,584.426 1021.5,562.775 996.5,562.775 984,584.426 996.5,606.077 1021.5,606.077" />
 <polygon id="Durham_North" class="seat " points="846.5,606.077 834,584.426 809,584.426 796.5,606.077 809,627.728 834,627.728" />
-<polygon id="Sedgefie" class="seat " points="921.5,606.077 909,584.426 884,584.426 871.5,606.077 884,627.728 909,627.728" />
+<polygon id="Sedgefield" class="seat " points="921.5,606.077 909,584.426 884,584.426 871.5,606.077 884,627.728 909,627.728" />
 <polygon id="Middlesbrough" class="seat " points="996.5,606.077 984,584.426 959,584.426 946.5,606.077 959,627.728 984,627.728" />
 <polygon id="Bishop_Auckland" class="seat " points="884,627.728 871.5,606.077 846.5,606.077 834,627.728 846.5,649.379 871.5,649.379" />
 <polygon id="Darlington" class="seat " points="959,627.728 946.5,606.077 921.5,606.077 909,627.728 921.5,649.379 946.5,649.379" />
@@ -133,23 +147,23 @@
 <polygon id="Chorley" class="seat " points="659,714.332 646.5,692.681 621.5,692.681 609,714.332 621.5,735.983 646.5,735.983" />
 <polygon id="Bolton_North_East" class="seat " points="734,714.332 721.5,692.681 696.5,692.681 684,714.332 696.5,735.983 721.5,735.983" />
 <polygon id="Heywood__Middleton" class="seat " points="809,714.332 796.5,692.681 771.5,692.681 759,714.332 771.5,735.983 796.5,735.983" />
-<polygon id="Fye" class="seat " points="621.5,735.983 609,714.332 584,714.332 571.5,735.983 584,757.634 609,757.634" />
+<polygon id="Fylde" class="seat " points="621.5,735.983 609,714.332 584,714.332 571.5,735.983 584,757.634 609,757.634" />
 <polygon id="Bolton_West" class="seat " points="696.5,735.983 684,714.332 659,714.332 646.5,735.983 659,757.634 684,757.634" />
 <polygon id="Bury_South" class="seat " points="771.5,735.983 759,714.332 734,714.332 721.5,735.983 734,757.634 759,757.634" />
 <polygon id="Burnley" class="seat " points="846.5,735.983 834,714.332 809,714.332 796.5,735.983 809,757.634 834,757.634" />
 <polygon id="Wigan" class="seat " points="659,757.634 646.5,735.983 621.5,735.983 609,757.634 621.5,779.285 646.5,779.285" />
 <polygon id="Bolton_South_East" class="seat " points="734,757.634 721.5,735.983 696.5,735.983 684,757.634 696.5,779.285 721.5,779.285" />
-<polygon id="Oham_West__Royton" class="seat " points="809,757.634 796.5,735.983 771.5,735.983 759,757.634 771.5,779.285 796.5,779.285" />
+<polygon id="Oldham_West__Royton" class="seat " points="809,757.634 796.5,735.983 771.5,735.983 759,757.634 771.5,779.285 796.5,779.285" />
 <polygon id="Lancashire_West" class="seat " points="621.5,779.285 609,757.634 584,757.634 571.5,779.285 584,800.936 609,800.936" />
 <polygon id="Stretford__Urmston" class="seat " points="696.5,779.285 684,757.634 659,757.634 646.5,779.285 659,800.936 684,800.936" />
 <polygon id="Blackley__Broughton" class="seat " points="771.5,779.285 759,757.634 734,757.634 721.5,779.285 734,800.936 759,800.936" />
 <polygon id="Rossendale__Darwen" class="seat " points="846.5,779.285 834,757.634 809,757.634 796.5,779.285 809,800.936 834,800.936" />
-<polygon id="South_Ribble" class="seat " points="584,800.936 571.5,779.285 546.5,779.285 534,800.936 546.5,822.587 571.5,822.587" />
-<polygon id="Makerfie" class="seat " points="659,800.936 646.5,779.285 621.5,779.285 609,800.936 621.5,822.587 646.5,822.587" />
+<polygon id="Ribble_South" class="seat " points="584,800.936 571.5,779.285 546.5,779.285 534,800.936 546.5,822.587 571.5,822.587" />
+<polygon id="Makerfield" class="seat " points="659,800.936 646.5,779.285 621.5,779.285 609,800.936 621.5,822.587 646.5,822.587" />
 <polygon id="Salford__Eccles" class="seat " points="734,800.936 721.5,779.285 696.5,779.285 684,800.936 696.5,822.587 721.5,822.587" />
-<polygon id="Ashton-under-Lyne" class="seat " points="809,800.936 796.5,779.285 771.5,779.285 759,800.936 771.5,822.587 796.5,822.587" />
+<polygon id="Ashton_Under_Lyne" class="seat " points="809,800.936 796.5,779.285 771.5,779.285 759,800.936 771.5,822.587 796.5,822.587" />
 <polygon id="Southport" class="seat " points="546.5,822.587 534,800.936 509,800.936 496.5,822.587 509,844.238 534,844.238" />
-<polygon id="St_Helens_North_" class="seat " points="621.5,822.587 609,800.936 584,800.936 571.5,822.587 584,844.238 609,844.238" />
+<polygon id="St_Helens_North" class="seat " points="621.5,822.587 609,800.936 584,800.936 571.5,822.587 584,844.238 609,844.238" />
 <polygon id="Manchester_Gorton" class="seat " points="696.5,822.587 684,800.936 659,800.936 646.5,822.587 659,844.238 684,844.238" />
 <polygon id="Manchester_Central" class="seat " points="771.5,822.587 759,800.936 734,800.936 721.5,822.587 734,844.238 759,844.238" />
 <polygon id="Rochdale" class="seat " points="846.5,822.587 834,800.936 809,800.936 796.5,822.587 809,844.238 834,844.238" />
@@ -161,7 +175,7 @@
 <polygon id="Knowsley" class="seat " points="621.5,865.889 609,844.238 584,844.238 571.5,865.889 584,887.54 609,887.54" />
 <polygon id="Worsley__Eccles_South" class="seat " points="696.5,865.889 684,844.238 659,844.238 646.5,865.889 659,887.54 684,887.54" />
 <polygon id="Manchester_Withington" class="seat " points="771.5,865.889 759,844.238 734,844.238 721.5,865.889 734,887.54 759,887.54" />
-<polygon id="Oham_East__Saddleworth" class="seat " points="846.5,865.889 834,844.238 809,844.238 796.5,865.889 809,887.54 834,887.54" />
+<polygon id="Oldham_East__Saddleworth" class="seat " points="846.5,865.889 834,844.238 809,844.238 796.5,865.889 809,887.54 834,887.54" />
 <polygon id="Liverpool_West_Derby" class="seat " points="584,887.54 571.5,865.889 546.5,865.889 534,887.54 546.5,909.191 571.5,909.191" />
 <polygon id="Warrington_North" class="seat " points="659,887.54 646.5,865.889 621.5,865.889 609,887.54 621.5,909.191 646.5,909.191" />
 <polygon id="Altrincham__Sale_West" class="seat " points="734,887.54 721.5,865.889 696.5,865.889 684,887.54 696.5,909.191 721.5,909.191" />
@@ -175,11 +189,11 @@
 <polygon id="Liverpool_Wavertree" class="seat " points="584,930.842 571.5,909.191 546.5,909.191 534,930.842 546.5,952.493 571.5,952.493" />
 <polygon id="Halton" class="seat " points="659,930.842 646.5,909.191 621.5,909.191 609,930.842 621.5,952.493 646.5,952.493" />
 <polygon id="Tatton" class="seat " points="734,930.842 721.5,909.191 696.5,909.191 684,930.842 696.5,952.493 721.5,952.493" />
-<polygon id="Macclesfie" class="seat " points="809,930.842 796.5,909.191 771.5,909.191 759,930.842 771.5,952.493 796.5,952.493" />
+<polygon id="Macclesfield" class="seat " points="809,930.842 796.5,909.191 771.5,909.191 759,930.842 771.5,952.493 796.5,952.493" />
 <polygon id="Ellesmere_Port__Neston" class="seat " points="546.5,952.493 534,930.842 509,930.842 496.5,952.493 509,974.144 534,974.144" />
 <polygon id="Garston__Halewood" class="seat " points="621.5,952.493 609,930.842 584,930.842 571.5,952.493 584,974.144 609,974.144" />
 <polygon id="Crewe__Nantwich" class="seat " points="696.5,952.493 684,930.842 659,930.842 646.5,952.493 659,974.144 684,974.144" />
-<polygon id="gleton" class="seat " points="771.5,952.493 759,930.842 734,930.842 721.5,952.493 734,974.144 759,974.144" />
+<polygon id="Congleton" class="seat " points="771.5,952.493 759,930.842 734,930.842 721.5,952.493 734,974.144 759,974.144" />
 <polygon id="Hazel_Grove" class="seat " points="846.5,952.493 834,930.842 809,930.842 796.5,952.493 809,974.144 834,974.144" />
 <polygon id="Wallasey" class="seat " points="509,974.144 496.5,952.493 471.5,952.493 459,974.144 471.5,995.795 496.5,995.795" />
 <polygon id="Liverpool_Riverside" class="seat " points="584,974.144 571.5,952.493 546.5,952.493 534,974.144 546.5,995.795 571.5,995.795" />
@@ -187,30 +201,30 @@
 <polygon id="Wirral_South" class="seat " points="546.5,995.795 534,974.144 509,974.144 496.5,995.795 509,1017.446 534,1017.446" />
 <polygon id="Eddisbury" class="seat " points="621.5,995.795 609,974.144 584,974.144 571.5,995.795 584,1017.446 609,1017.446" />
 <polygon id="Wirral_West" class="seat " points="509,1017.446 496.5,995.795 471.5,995.795 459,1017.446 471.5,1039.097 496.5,1039.097" />
-<polygon id="Chester_City_of" class="seat " points="584,1017.446 571.5,995.795 546.5,995.795 534,1017.446 546.5,1039.097 571.5,1039.097" />
+<polygon id="Chester__City_of" class="seat " points="584,1017.446 571.5,995.795 546.5,995.795 534,1017.446 546.5,1039.097 571.5,1039.097" />
 </g>
 <g id="northern-ireland">
-<polygon id="East_Londonderry" class="seat " points="134,627.728 121.5,606.077 96.5,606.077 84,627.728 96.5,649.379 121.5,649.379" />
+<polygon id="Londonderry_East" class="seat " points="134,627.728 121.5,606.077 96.5,606.077 84,627.728 96.5,649.379 121.5,649.379" />
 <polygon id="Foyle" class="seat " points="96.5,649.379 84,627.728 59,627.728 46.5,649.379 59,671.03 84,671.03" />
-<polygon id="North_Antrim" class="seat " points="171.5,649.379 159,627.728 134,627.728 121.5,649.379 134,671.03 159,671.03" />
-<polygon id="West_Tyrone" class="seat " points="59,671.03 46.5,649.379 21.5,649.379 9,671.03 21.5,692.681 46.5,692.681" />
-<polygon id="South_Antrim" class="seat 	" points="134,671.03 121.5,649.379 96.5,649.379 84,671.03 96.5,692.681 121.5,692.681" />
-<polygon id="East_Antrim_" class="seat " points="209,671.03 196.5,649.379 171.5,649.379 159,671.03 171.5,692.681 196.5,692.681" />
-<polygon id="Mid_Ulster" class="seat " points="96.5,692.681 84,671.03 59,671.03 46.5,692.681 59,714.332 84,714.332" />
+<polygon id="Antrim_North" class="seat " points="171.5,649.379 159,627.728 134,627.728 121.5,649.379 134,671.03 159,671.03" />
+<polygon id="Tyrone_West" class="seat " points="59,671.03 46.5,649.379 21.5,649.379 9,671.03 21.5,692.681 46.5,692.681" />
+<polygon id="Antrim_South" class="seat 	" points="134,671.03 121.5,649.379 96.5,649.379 84,671.03 96.5,692.681 121.5,692.681" />
+<polygon id="Antrim_East" class="seat " points="209,671.03 196.5,649.379 171.5,649.379 159,671.03 171.5,692.681 196.5,692.681" />
+<polygon id="Ulster_Mid" class="seat " points="96.5,692.681 84,671.03 59,671.03 46.5,692.681 59,714.332 84,714.332" />
 <polygon id="Belfast_North" class="seat " points="171.5,692.681 159,671.03 134,671.03 121.5,692.681 134,714.332 159,714.332" />
 <polygon id="Fermanagh__South_Tyrone" class="seat " points="59,714.332 46.5,692.681 21.5,692.681 9,714.332 21.5,735.983 46.5,735.983" />
 <polygon id="Belfast_West" class="seat " points="134,714.332 121.5,692.681 96.5,692.681 84,714.332 96.5,735.983 121.5,735.983" />
 <polygon id="Belfast_East" class="seat " points="171.5,735.983 159,714.332 134,714.332 121.5,735.983 134,757.634 159,757.634" />
 <polygon id="Belfast_South" class="seat " points="134,757.634 121.5,735.983 96.5,735.983 84,757.634 96.5,779.285 121.5,779.285" />
-<polygon id="North_Down" class="seat " points="209,757.634 196.5,735.983 171.5,735.983 159,757.634 171.5,779.285 196.5,779.285" />
+<polygon id="Down_North" class="seat " points="209,757.634 196.5,735.983 171.5,735.983 159,757.634 171.5,779.285 196.5,779.285" />
 <polygon id="Newry__Armagh" class="seat " points="96.5,779.285 84,757.634 59,757.634 46.5,779.285 59,800.936 84,800.936" />
 <polygon id="Lagan_Valley" class="seat " points="171.5,779.285 159,757.634 134,757.634 121.5,779.285 134,800.936 159,800.936" />
 <polygon id="Upper_Bann" class="seat " points="134,800.936 121.5,779.285 96.5,779.285 84,800.936 96.5,822.587 121.5,822.587" />
 <polygon id="Strangford" class="seat " points="209,800.936 196.5,779.285 171.5,779.285 159,800.936 171.5,822.587 196.5,822.587" />
-<polygon id="South_Down" class="seat " points="171.5,822.587 159,800.936 134,800.936 121.5,822.587 134,844.238 159,844.238" />
+<polygon id="Down_South" class="seat " points="171.5,822.587 159,800.936 134,800.936 121.5,822.587 134,844.238 159,844.238" />
 </g>
 <g id="yorkshire-humber">
-<polygon id="Richmond_Yorks" class="seat " points="921.5,649.379 909,627.728 884,627.728 871.5,649.379 884,671.03 909,671.03" />
+<polygon id="Richmond__Yorks_" class="seat " points="921.5,649.379 909,627.728 884,627.728 871.5,649.379 884,671.03 909,671.03" />
 <polygon id="Skipton__Ripon" class="seat " points="884,671.03 871.5,649.379 846.5,649.379 834,671.03 846.5,692.681 871.5,692.681" />
 <polygon id="Shipley" class="seat " points="959,671.03 946.5,649.379 921.5,649.379 909,671.03 921.5,692.681 946.5,692.681" />
 <polygon id="Harrogate__Knaresborough" class="seat " points="1034,671.03 1021.5,649.379 996.5,649.379 984,671.03 996.5,692.681 1021.5,692.681" />
@@ -221,7 +235,7 @@
 <polygon id="Leeds_West" class="seat " points="959,714.332 946.5,692.681 921.5,692.681 909,714.332 921.5,735.983 946.5,735.983" />
 <polygon id="Selby__Ainsty" class="seat " points="1034,714.332 1021.5,692.681 996.5,692.681 984,714.332 996.5,735.983 1021.5,735.983" />
 <polygon id="Bradford_East" class="seat " points="921.5,735.983 909,714.332 884,714.332 871.5,735.983 884,757.634 909,757.634" />
-<polygon id="Normanton_Pontefract__Castleford" class="seat " points="996.5,735.983 984,714.332 959,714.332 946.5,735.983 959,757.634 984,757.634" />
+<polygon id="Normanton__Pontefract__Castleford" class="seat " points="996.5,735.983 984,714.332 959,714.332 946.5,735.983 959,757.634 984,757.634" />
 <polygon id="York_Outer" class="seat " points="1071.5,735.983 1059,714.332 1034,714.332 1021.5,735.983 1034,757.634 1059,757.634" />
 <polygon id="Bradford_West" class="seat " points="884,757.634 871.5,735.983 846.5,735.983 834,757.634 846.5,779.285 871.5,779.285" />
 <polygon id="Leeds_North_West" class="seat " points="959,757.634 946.5,735.983 921.5,735.983 909,757.634 921.5,779.285 946.5,779.285" />
@@ -232,36 +246,36 @@
 <polygon id="Hemsworth" class="seat " points="1071.5,779.285 1059,757.634 1034,757.634 1021.5,779.285 1034,800.936 1059,800.936" />
 <polygon id="Yorkshire_East" class="seat " points="1146.5,779.285 1134,757.634 1109,757.634 1096.5,779.285 1109,800.936 1134,800.936" />
 <polygon id="Bradford_South" class="seat " points="884,800.936 871.5,779.285 846.5,779.285 834,800.936 846.5,822.587 871.5,822.587" />
-<polygon id="Wakefie" class="seat " points="959,800.936 946.5,779.285 921.5,779.285 909,800.936 921.5,822.587 946.5,822.587" />
+<polygon id="Wakefield" class="seat " points="959,800.936 946.5,779.285 921.5,779.285 909,800.936 921.5,822.587 946.5,822.587" />
 <polygon id="Leeds_East" class="seat " points="1034,800.936 1021.5,779.285 996.5,779.285 984,800.936 996.5,822.587 1021.5,822.587" />
 <polygon id="Haltemprice__Howden" class="seat " points="1109,800.936 1096.5,779.285 1071.5,779.285 1059,800.936 1071.5,822.587 1096.5,822.587" />
 <polygon id="Batley__Spen" class="seat " points="921.5,822.587 909,800.936 884,800.936 871.5,822.587 884,844.238 909,844.238" />
 <polygon id="Morley__Outwood" class="seat " points="996.5,822.587 984,800.936 959,800.936 946.5,822.587 959,844.238 984,844.238" />
 <polygon id="Doncaster_North" class="seat " points="1071.5,822.587 1059,800.936 1034,800.936 1021.5,822.587 1034,844.238 1059,844.238" />
-<polygon id="Beverley__Hoerness" class="seat " points="1146.5,822.587 1134,800.936 1109,800.936 1096.5,822.587 1109,844.238 1134,844.238" />
+<polygon id="Beverley__Holderness" class="seat " points="1146.5,822.587 1134,800.936 1109,800.936 1096.5,822.587 1109,844.238 1134,844.238" />
 <polygon id="Halifax" class="seat " points="884,844.238 871.5,822.587 846.5,822.587 834,844.238 846.5,865.889 871.5,865.889" />
 <polygon id="Dewsbury" class="seat " points="959,844.238 946.5,822.587 921.5,822.587 909,844.238 921.5,865.889 946.5,865.889" />
 <polygon id="Wentworth__Dearne" class="seat " points="1034,844.238 1021.5,822.587 996.5,822.587 984,844.238 996.5,865.889 1021.5,865.889" />
 <polygon id="Hull_North" class="seat " points="1109,844.238 1096.5,822.587 1071.5,822.587 1059,844.238 1071.5,865.889 1096.5,865.889" />
-<polygon id="Huddersfie" class="seat " points="921.5,865.889 909,844.238 884,844.238 871.5,865.889 884,887.54 909,887.54" />
+<polygon id="Huddersfield" class="seat " points="921.5,865.889 909,844.238 884,844.238 871.5,865.889 884,887.54 909,887.54" />
 <polygon id="Rotherham" class="seat " points="996.5,865.889 984,844.238 959,844.238 946.5,865.889 959,887.54 984,887.54" />
 <polygon id="Doncaster_Central" class="seat " points="1071.5,865.889 1059,844.238 1034,844.238 1021.5,865.889 1034,887.54 1059,887.54" />
-<polygon id="Caer_Valley" class="seat " points="884,887.54 871.5,865.889 846.5,865.889 834,887.54 846.5,909.191 871.5,909.191" />
+<polygon id="Calder_Valley" class="seat " points="884,887.54 871.5,865.889 846.5,865.889 834,887.54 846.5,909.191 871.5,909.191" />
 <polygon id="Barnsley_East" class="seat " points="959,887.54 946.5,865.889 921.5,865.889 909,887.54 921.5,909.191 946.5,909.191" />
 <polygon id="Don_Valley" class="seat " points="1034,887.54 1021.5,865.889 996.5,865.889 984,887.54 996.5,909.191 1021.5,909.191" />
 <polygon id="Hull_East" class="seat " points="1109,887.54 1096.5,865.889 1071.5,865.889 1059,887.54 1071.5,909.191 1096.5,909.191" />
 <polygon id="Barnsley_Central" class="seat " points="921.5,909.191 909,887.54 884,887.54 871.5,909.191 884,930.842 909,930.842" />
-<polygon id="Sheffie_Brightside__Hillsborough" class="seat " points="996.5,909.191 984,887.54 959,887.54 946.5,909.191 959,930.842 984,930.842" />
+<polygon id="Sheffield_Brightside__Hillsborough" class="seat " points="996.5,909.191 984,887.54 959,887.54 946.5,909.191 959,930.842 984,930.842" />
 <polygon id="Brigg__Goole" class="seat " points="1071.5,909.191 1059,887.54 1034,887.54 1021.5,909.191 1034,930.842 1059,930.842" />
 <polygon id="Colne_Valley" class="seat " points="884,930.842 871.5,909.191 846.5,909.191 834,930.842 846.5,952.493 871.5,952.493" />
-<polygon id="Sheffie_Central" class="seat " points="959,930.842 946.5,909.191 921.5,909.191 909,930.842 921.5,952.493 946.5,952.493" />
-<polygon id="Sheffie_South_East" class="seat " points="1034,930.842 1021.5,909.191 996.5,909.191 984,930.842 996.5,952.493 1021.5,952.493" />
+<polygon id="Sheffield_Central" class="seat " points="959,930.842 946.5,909.191 921.5,909.191 909,930.842 921.5,952.493 946.5,952.493" />
+<polygon id="Sheffield_South_East" class="seat " points="1034,930.842 1021.5,909.191 996.5,909.191 984,930.842 996.5,952.493 1021.5,952.493" />
 <polygon id="Hull_West__Hessle" class="seat " points="1109,930.842 1096.5,909.191 1071.5,909.191 1059,930.842 1071.5,952.493 1096.5,952.493" />
 <polygon id="Penistone__Stocksbridge" class="seat " points="921.5,952.493 909,930.842 884,930.842 871.5,952.493 884,974.144 909,974.144" />
-<polygon id="Sheffie_Heeley" class="seat " points="996.5,952.493 984,930.842 959,930.842 946.5,952.493 959,974.144 984,974.144" />
+<polygon id="Sheffield_Heeley" class="seat " points="996.5,952.493 984,930.842 959,930.842 946.5,952.493 959,974.144 984,974.144" />
 <polygon id="Rother_Valley" class="seat " points="1071.5,952.493 1059,930.842 1034,930.842 1021.5,952.493 1034,974.144 1059,974.144" />
-<polygon id="Great_Grimsby" class="seat " points="1146.5,952.493 1134,930.842 1109,930.842 1096.5,952.493 1109,974.144 1134,974.144" />
-<polygon id="Sheffie_Hallam" class="seat " points="959,974.144 946.5,952.493 921.5,952.493 909,974.144 921.5,995.795 946.5,995.795" />
+<polygon id="Grimsby__Great" class="seat " points="1146.5,952.493 1134,930.842 1109,930.842 1096.5,952.493 1109,974.144 1134,974.144" />
+<polygon id="Sheffield_Hallam" class="seat " points="959,974.144 946.5,952.493 921.5,952.493 909,974.144 921.5,995.795 946.5,995.795" />
 <polygon id="Scunthorpe" class="seat " points="1109,974.144 1096.5,952.493 1071.5,952.493 1059,974.144 1071.5,995.795 1096.5,995.795" />
 <polygon id="Cleethorpes" class="seat " points="1146.5,995.795 1134,974.144 1109,974.144 1096.5,995.795 1109,1017.446 1134,1017.446" />
 </g>
@@ -273,21 +287,21 @@
 <polygon id="Tamworth" class="seat " points="846.5,995.795 834,974.144 809,974.144 796.5,995.795 809,1017.446 834,1017.446" />
 <polygon id="Stoke-on-Trent_North" class="seat " points="659,1017.446 646.5,995.795 621.5,995.795 609,1017.446 621.5,1039.097 646.5,1039.097" />
 <polygon id="Wolverhampton_North_East" class="seat " points="734,1017.446 721.5,995.795 696.5,995.795 684,1017.446 696.5,1039.097 721.5,1039.097" />
-<polygon id="Lichfie" class="seat " points="809,1017.446 796.5,995.795 771.5,995.795 759,1017.446 771.5,1039.097 796.5,1039.097" />
+<polygon id="Lichfield" class="seat " points="809,1017.446 796.5,995.795 771.5,995.795 759,1017.446 771.5,1039.097 796.5,1039.097" />
 <polygon id="Newcastle-under-Lyme" class="seat " points="621.5,1039.097 609,1017.446 584,1017.446 571.5,1039.097 584,1060.748 609,1060.748" />
 <polygon id="Stoke-on-Trent_South" class="seat " points="696.5,1039.097 684,1017.446 659,1017.446 646.5,1039.097 659,1060.748 684,1060.748" />
 <polygon id="Stafford" class="seat " points="771.5,1039.097 759,1017.446 734,1017.446 721.5,1039.097 734,1060.748 759,1060.748" />
 <polygon id="Warwickshire_North" class="seat " points="846.5,1039.097 834,1017.446 809,1017.446 796.5,1039.097 809,1060.748 834,1060.748" />
 <polygon id="Staffordshire_South" class="seat " points="659,1060.748 646.5,1039.097 621.5,1039.097 609,1060.748 621.5,1082.399 646.5,1082.399" />
 <polygon id="Walsall_North" class="seat " points="734,1060.748 721.5,1039.097 696.5,1039.097 684,1060.748 696.5,1082.399 721.5,1082.399" />
-<polygon id="Aridge-Brownhills" class="seat " points="809,1060.748 796.5,1039.097 771.5,1039.097 759,1060.748 771.5,1082.399 796.5,1082.399" />
+<polygon id="Aldridge-Brownhills" class="seat " points="809,1060.748 796.5,1039.097 771.5,1039.097 759,1060.748 771.5,1082.399 796.5,1082.399" />
 <polygon id="Shropshire_North" class="seat " points="621.5,1082.399 609,1060.748 584,1060.748 571.5,1082.399 584,1104.05 609,1104.05" />
 <polygon id="Wolverhampton_South_West" class="seat " points="696.5,1082.399 684,1060.748 659,1060.748 646.5,1082.399 659,1104.05 684,1104.05" />
 <polygon id="Cannock_Chase" class="seat " points="771.5,1082.399 759,1060.748 734,1060.748 721.5,1082.399 734,1104.05 759,1104.05" />
 <polygon id="Nuneaton" class="seat " points="846.5,1082.399 834,1060.748 809,1060.748 796.5,1082.399 809,1104.05 834,1104.05" />
 <polygon id="Telford" class="seat " points="659,1104.05 646.5,1082.399 621.5,1082.399 609,1104.05 621.5,1125.701 646.5,1125.701" />
 <polygon id="Walsall_South" class="seat " points="734,1104.05 721.5,1082.399 696.5,1082.399 684,1104.05 696.5,1125.701 721.5,1125.701" />
-<polygon id="Sutton_Cofie" class="seat " points="809,1104.05 796.5,1082.399 771.5,1082.399 759,1104.05 771.5,1125.701 796.5,1125.701" />
+<polygon id="Sutton_Coldfield" class="seat " points="809,1104.05 796.5,1082.399 771.5,1082.399 759,1104.05 771.5,1125.701 796.5,1125.701" />
 <polygon id="Shrewsbury__Atcham" class="seat " points="621.5,1125.701 609,1104.05 584,1104.05 571.5,1125.701 584,1147.352 609,1147.352" />
 <polygon id="Wolverhampton_South_East" class="seat " points="696.5,1125.701 684,1104.05 659,1104.05 646.5,1125.701 659,1147.352 684,1147.352" />
 <polygon id="Birmingham_Erdington" class="seat " points="771.5,1125.701 759,1104.05 734,1104.05 721.5,1125.701 734,1147.352 759,1147.352" />
@@ -295,7 +309,7 @@
 <polygon id="Dudley_North" class="seat " points="659,1147.352 646.5,1125.701 621.5,1125.701 609,1147.352 621.5,1169.003 646.5,1169.003" />
 <polygon id="West_Bromwich_East" class="seat " points="734,1147.352 721.5,1125.701 696.5,1125.701 684,1147.352 696.5,1169.003 721.5,1169.003" />
 <polygon id="Meriden" class="seat " points="809,1147.352 796.5,1125.701 771.5,1125.701 759,1147.352 771.5,1169.003 796.5,1169.003" />
-<polygon id="Wrekin_The" class="seat " points="621.5,1169.003 609,1147.352 584,1147.352 571.5,1169.003 584,1190.654 609,1190.654" />
+<polygon id="Wrekin__The" class="seat " points="621.5,1169.003 609,1147.352 584,1147.352 571.5,1169.003 584,1190.654 609,1190.654" />
 <polygon id="Warley" class="seat " points="696.5,1169.003 684,1147.352 659,1147.352 646.5,1169.003 659,1190.654 684,1190.654" />
 <polygon id="Birmingham_Hodge_Hill" class="seat " points="771.5,1169.003 759,1147.352 734,1147.352 721.5,1169.003 734,1190.654 759,1190.654" />
 <polygon id="Coventry_North_West" class="seat " points="846.5,1169.003 834,1147.352 809,1147.352 796.5,1169.003 809,1190.654 834,1190.654" />
@@ -315,7 +329,7 @@
 <polygon id="Birmingham_Hall_Green" class="seat " points="734,1277.258 721.5,1255.607 696.5,1255.607 684,1277.258 696.5,1298.909 721.5,1298.909" />
 <polygon id="Warwick__Leamington" class="seat " points="809,1277.258 796.5,1255.607 771.5,1255.607 759,1277.258 771.5,1298.909 796.5,1298.909" />
 <polygon id="Herefordshire_North" class="seat " points="621.5,1298.909 609,1277.258 584,1277.258 571.5,1298.909 584,1320.56 609,1320.56" />
-<polygon id="Birmingham_Northfie" class="seat " points="696.5,1298.909 684,1277.258 659,1277.258 646.5,1298.909 659,1320.56 684,1320.56" />
+<polygon id="Birmingham_Northfield" class="seat " points="696.5,1298.909 684,1277.258 659,1277.258 646.5,1298.909 659,1320.56 684,1320.56" />
 <polygon id="Kenilworth__Southam" class="seat " points="771.5,1298.909 759,1277.258 734,1277.258 721.5,1298.909 734,1320.56 759,1320.56" />
 <polygon id="Birmingham_Edgbaston" class="seat " points="659,1320.56 646.5,1298.909 621.5,1298.909 609,1320.56 621.5,1342.211 646.5,1342.211" />
 <polygon id="Bromsgrove" class="seat " points="734,1320.56 721.5,1298.909 696.5,1298.909 684,1320.56 696.5,1342.211 721.5,1342.211" />
@@ -324,20 +338,20 @@
 <polygon id="Worcester" class="seat " points="659,1363.862 646.5,1342.211 621.5,1342.211 609,1363.862 621.5,1385.513 646.5,1385.513" />
 <polygon id="Worcestershire_Mid" class="seat " points="734,1363.862 721.5,1342.211 696.5,1342.211 684,1363.862 696.5,1385.513 721.5,1385.513" />
 <polygon id="Worcestershire_West" class="seat " points="696.5,1385.513 684,1363.862 659,1363.862 646.5,1385.513 659,1407.164 684,1407.164" />
-<polygon id="Hereford__Herefordshire_South" class="seat " points="659,1407.164 646.5,1385.513 621.5,1385.513 609,1407.164 621.5,1428.815 646.5,1428.815" />
+<polygon id="Hereford__South_Herefordshire" class="seat " points="659,1407.164 646.5,1385.513 621.5,1385.513 609,1407.164 621.5,1428.815 646.5,1428.815" />
 </g>
 <g id="east-midlands">
 <polygon id="High_Peak" class="seat " points="884,974.144 871.5,952.493 846.5,952.493 834,974.144 846.5,995.795 871.5,995.795" />
-<polygon id="Mansfie" class="seat " points="1034,974.144 1021.5,952.493 996.5,952.493 984,974.144 996.5,995.795 1021.5,995.795" />
+<polygon id="Mansfield" class="seat " points="1034,974.144 1021.5,952.493 996.5,952.493 984,974.144 996.5,995.795 1021.5,995.795" />
 <polygon id="Derbyshire_North_East" class="seat " points="921.5,995.795 909,974.144 884,974.144 871.5,995.795 884,1017.446 909,1017.446" />
 <polygon id="Bolsover" class="seat " points="996.5,995.795 984,974.144 959,974.144 946.5,995.795 959,1017.446 984,1017.446" />
 <polygon id="Bassetlaw" class="seat " points="1071.5,995.795 1059,974.144 1034,974.144 1021.5,995.795 1034,1017.446 1059,1017.446" />
 <polygon id="Derbyshire_Dales" class="seat " points="884,1017.446 871.5,995.795 846.5,995.795 834,1017.446 846.5,1039.097 871.5,1039.097" />
-<polygon id="Chesterfie" class="seat " points="959,1017.446 946.5,995.795 921.5,995.795 909,1017.446 921.5,1039.097 946.5,1039.097" />
+<polygon id="Chesterfield" class="seat " points="959,1017.446 946.5,995.795 921.5,995.795 909,1017.446 921.5,1039.097 946.5,1039.097" />
 <polygon id="Sherwood" class="seat " points="1034,1017.446 1021.5,995.795 996.5,995.795 984,1017.446 996.5,1039.097 1021.5,1039.097" />
 <polygon id="Newark" class="seat " points="1109,1017.446 1096.5,995.795 1071.5,995.795 1059,1017.446 1071.5,1039.097 1096.5,1039.097" />
 <polygon id="Derbyshire_Mid" class="seat " points="921.5,1039.097 909,1017.446 884,1017.446 871.5,1039.097 884,1060.748 909,1060.748" />
-<polygon id="Ashfie" class="seat " points="996.5,1039.097 984,1017.446 959,1017.446 946.5,1039.097 959,1060.748 984,1060.748" />
+<polygon id="Ashfield" class="seat " points="996.5,1039.097 984,1017.446 959,1017.446 946.5,1039.097 959,1060.748 984,1060.748" />
 <polygon id="Nottingham_North" class="seat " points="1071.5,1039.097 1059,1017.446 1034,1017.446 1021.5,1039.097 1034,1060.748 1059,1060.748" />
 <polygon id="Gainsborough" class="seat " points="1146.5,1039.097 1134,1017.446 1109,1017.446 1096.5,1039.097 1109,1060.748 1134,1060.748" />
 <polygon id="Derby_North" class="seat " points="884,1060.748 871.5,1039.097 846.5,1039.097 834,1060.748 846.5,1082.399 871.5,1082.399" />
@@ -372,21 +386,21 @@
 <polygon id="Wellingborough" class="seat " points="884,1233.956 871.5,1212.305 846.5,1212.305 834,1233.956 846.5,1255.607 871.5,1255.607" />
 <polygon id="Northampton_North" class="seat " points="846.5,1255.607 834,1233.956 809,1233.956 796.5,1255.607 809,1277.258 834,1277.258" />
 <polygon id="Northampton_South" class="seat " points="846.5,1298.909 834,1277.258 809,1277.258 796.5,1298.909 809,1320.56 834,1320.56" />
-<polygon id="Northamptonshire_South" class="seat " points="809,1320.56 796.5,1298.909 771.5,1298.909 759,1320.56 771.5,1342.211 796.5,1342.211" />
+<polygon id="Northamptonshire_South_" class="seat " points="809,1320.56 796.5,1298.909 771.5,1298.909 759,1320.56 771.5,1342.211 796.5,1342.211" />
 </g>
 <g id="wales">
 <polygon id="Delyn" class="seat " points="546.5,1039.097 534,1017.446 509,1017.446 496.5,1039.097 509,1060.748 534,1060.748" />
 <polygon id="Ynys_Mon" class="seat " points="434,1060.748 421.5,1039.097 396.5,1039.097 384,1060.748 396.5,1082.399 421.5,1082.399" />
 <polygon id="Alyn__Deeside" class="seat " points="584,1060.748 571.5,1039.097 546.5,1039.097 534,1060.748 546.5,1082.399 571.5,1082.399" />
-<polygon id="Vale_Of_Clwyd" class="seat " points="546.5,1082.399 534,1060.748 509,1060.748 496.5,1082.399 509,1104.05 534,1104.05" />
-<polygon id="Aberwy" class="seat " points="509,1104.05 496.5,1082.399 471.5,1082.399 459,1104.05 471.5,1125.701 496.5,1125.701" />
+<polygon id="Vale_of_Clwyd" class="seat " points="546.5,1082.399 534,1060.748 509,1060.748 496.5,1082.399 509,1104.05 534,1104.05" />
+<polygon id="Aberconwy" class="seat " points="509,1104.05 496.5,1082.399 471.5,1082.399 459,1104.05 471.5,1125.701 496.5,1125.701" />
 <polygon id="Wrexham" class="seat " points="584,1104.05 571.5,1082.399 546.5,1082.399 534,1104.05 546.5,1125.701 571.5,1125.701" />
 <polygon id="Arfon" class="seat " points="471.5,1125.701 459,1104.05 434,1104.05 421.5,1125.701 434,1147.352 459,1147.352" />
 <polygon id="Clwyd_West" class="seat " points="546.5,1125.701 534,1104.05 509,1104.05 496.5,1125.701 509,1147.352 534,1147.352" />
 <polygon id="Dwyfor_Meirionnydd" class="seat " points="509,1147.352 496.5,1125.701 471.5,1125.701 459,1147.352 471.5,1169.003 496.5,1169.003" />
 <polygon id="Clwyd_South" class="seat " points="584,1147.352 571.5,1125.701 546.5,1125.701 534,1147.352 546.5,1169.003 571.5,1169.003" />
 <polygon id="Montgomeryshire" class="seat " points="584,1190.654 571.5,1169.003 546.5,1169.003 534,1190.654 546.5,1212.305 571.5,1212.305" />
-<polygon id="Bre__Radnorshire" class="seat " points="584,1233.956 571.5,1212.305 546.5,1212.305 534,1233.956 546.5,1255.607 571.5,1255.607" />
+<polygon id="Brecon__Radnorshire" class="seat " points="584,1233.956 571.5,1212.305 546.5,1212.305 534,1233.956 546.5,1255.607 571.5,1255.607" />
 <polygon id="Ceredigion" class="seat " points="584,1277.258 571.5,1255.607 546.5,1255.607 534,1277.258 546.5,1298.909 571.5,1298.909" />
 <polygon id="Blaenau_Gwent" class="seat " points="584,1320.56 571.5,1298.909 546.5,1298.909 534,1320.56 546.5,1342.211 571.5,1342.211" />
 <polygon id="Merthyr_Tydfil__Rhymney" class="seat " points="546.5,1342.211 534,1320.56 509,1320.56 496.5,1342.211 509,1363.862 534,1363.862" />
@@ -412,7 +426,7 @@
 <polygon id="Ogmore" class="seat " points="471.5,1472.117 459,1450.466 434,1450.466 421.5,1472.117 434,1493.768 459,1493.768" />
 <polygon id="Cardiff_South__Penarth" class="seat " points="546.5,1472.117 534,1450.466 509,1450.466 496.5,1472.117 509,1493.768 534,1493.768" />
 <polygon id="Swansea_East" class="seat " points="434,1493.768 421.5,1472.117 396.5,1472.117 384,1493.768 396.5,1515.419 421.5,1515.419" />
-<polygon id="Vale_Of_Glamorgan" class="seat " points="509,1493.768 496.5,1472.117 471.5,1472.117 459,1493.768 471.5,1515.419 496.5,1515.419" />
+<polygon id="Vale_of_Glamorgan" class="seat " points="509,1493.768 496.5,1472.117 471.5,1472.117 459,1493.768 471.5,1515.419 496.5,1515.419" />
 <polygon id="Newport_West" class="seat " points="584,1493.768 571.5,1472.117 546.5,1472.117 534,1493.768 546.5,1515.419 571.5,1515.419" />
 <polygon id="Bridgend" class="seat " points="471.5,1515.419 459,1493.768 434,1493.768 421.5,1515.419 434,1537.07 459,1537.07" />
 </g>
@@ -442,7 +456,7 @@
 <polygon id="Norfolk_South" class="seat " points="1259,1277.258 1246.5,1255.607 1221.5,1255.607 1209,1277.258 1221.5,1298.909 1246.5,1298.909" />
 <polygon id="Waveney" class="seat " points="1334,1277.258 1321.5,1255.607 1296.5,1255.607 1284,1277.258 1296.5,1298.909 1321.5,1298.909" />
 <polygon id="Luton_South" class="seat " points="921.5,1298.909 909,1277.258 884,1277.258 871.5,1298.909 884,1320.56 909,1320.56" />
-<polygon id="Welwyn_Hatfie" class="seat " points="996.5,1298.909 984,1277.258 959,1277.258 946.5,1298.909 959,1320.56 984,1320.56" />
+<polygon id="Welwyn_Hatfield" class="seat " points="996.5,1298.909 984,1277.258 959,1277.258 946.5,1298.909 959,1320.56 984,1320.56" />
 <polygon id="Broxbourne" class="seat " points="1071.5,1298.909 1059,1277.258 1034,1277.258 1021.5,1298.909 1034,1320.56 1059,1320.56" />
 <polygon id="Cambridge" class="seat " points="1146.5,1298.909 1134,1277.258 1109,1277.258 1096.5,1298.909 1109,1320.56 1134,1320.56" />
 <polygon id="Bury_St_Edmunds" class="seat " points="1221.5,1298.909 1209,1277.258 1184,1277.258 1171.5,1298.909 1184,1320.56 1209,1320.56" />
@@ -453,41 +467,41 @@
 <polygon id="Harlow" class="seat " points="1109,1320.56 1096.5,1298.909 1071.5,1298.909 1059,1320.56 1071.5,1342.211 1096.5,1342.211" />
 <polygon id="Cambridgeshire_South_East" class="seat " points="1184,1320.56 1171.5,1298.909 1146.5,1298.909 1134,1320.56 1146.5,1342.211 1171.5,1342.211" />
 <polygon id="Suffolk_South" class="seat " points="1259,1320.56 1246.5,1298.909 1221.5,1298.909 1209,1320.56 1221.5,1342.211 1246.5,1342.211" />
-<polygon id="Suffolk_Central__Ipswich_North" class="seat " points="1334,1320.56 1321.5,1298.909 1296.5,1298.909 1284,1320.56 1296.5,1342.211 1321.5,1342.211" />
+<polygon id="Suffolk_Central__North_Ipswich" class="seat " points="1334,1320.56 1321.5,1298.909 1296.5,1298.909 1284,1320.56 1296.5,1342.211 1321.5,1342.211" />
 <polygon id="Bedfordshire_Mid" class="seat " points="846.5,1342.211 834,1320.56 809,1320.56 796.5,1342.211 809,1363.862 834,1363.862" />
 <polygon id="Watford" class="seat " points="921.5,1342.211 909,1320.56 884,1320.56 871.5,1342.211 884,1363.862 909,1363.862" />
 <polygon id="Epping_Forest" class="seat " points="1146.5,1342.211 1134,1320.56 1109,1320.56 1096.5,1342.211 1109,1363.862 1134,1363.862" />
 <polygon id="Braintree" class="seat " points="1221.5,1342.211 1209,1320.56 1184,1320.56 1171.5,1342.211 1184,1363.862 1209,1363.862" />
-<polygon id="Harwich__Essex_North" class="seat " points="1296.5,1342.211 1284,1320.56 1259,1320.56 1246.5,1342.211 1259,1363.862 1284,1363.862" />
+<polygon id="Harwich__North_Essex" class="seat " points="1296.5,1342.211 1284,1320.56 1259,1320.56 1246.5,1342.211 1259,1363.862 1284,1363.862" />
 <polygon id="Clacton" class="seat " points="1371.5,1342.211 1359,1320.56 1334,1320.56 1321.5,1342.211 1334,1363.862 1359,1363.862" />
 <polygon id="Hertfordshire_South_West" class="seat " points="884,1363.862 871.5,1342.211 846.5,1342.211 834,1363.862 846.5,1385.513 871.5,1385.513" />
 <polygon id="Brentwood__Ongar" class="seat " points="1184,1363.862 1171.5,1342.211 1146.5,1342.211 1134,1363.862 1146.5,1385.513 1171.5,1385.513" />
 <polygon id="Colchester" class="seat " points="1259,1363.862 1246.5,1342.211 1221.5,1342.211 1209,1363.862 1221.5,1385.513 1246.5,1385.513" />
 <polygon id="Witham" class="seat " points="1334,1363.862 1321.5,1342.211 1296.5,1342.211 1284,1363.862 1296.5,1385.513 1321.5,1385.513" />
 <polygon id="Bedfordshire_South_West" class="seat " points="846.5,1385.513 834,1363.862 809,1363.862 796.5,1385.513 809,1407.164 834,1407.164" />
-<polygon id="Saffron_Waen" class="seat " points="1221.5,1385.513 1209,1363.862 1184,1363.862 1171.5,1385.513 1184,1407.164 1209,1407.164" />
+<polygon id="Saffron_Walden" class="seat " points="1221.5,1385.513 1209,1363.862 1184,1363.862 1171.5,1385.513 1184,1407.164 1209,1407.164" />
 <polygon id="Rayleigh__Wickford" class="seat " points="1296.5,1385.513 1284,1363.862 1259,1363.862 1246.5,1385.513 1259,1407.164 1284,1407.164" />
-<polygon id="Maon" class="seat " points="1371.5,1385.513 1359,1363.862 1334,1363.862 1321.5,1385.513 1334,1407.164 1359,1407.164" />
+<polygon id="Maldon" class="seat " points="1371.5,1385.513 1359,1363.862 1334,1363.862 1321.5,1385.513 1334,1407.164 1359,1407.164" />
 <polygon id="Chelmsford" class="seat " points="1259,1407.164 1246.5,1385.513 1221.5,1385.513 1209,1407.164 1221.5,1428.815 1246.5,1428.815" />
 <polygon id="Southend_West" class="seat " points="1334,1407.164 1321.5,1385.513 1296.5,1385.513 1284,1407.164 1296.5,1428.815 1321.5,1428.815" />
-<polygon id="Basion__Billericay" class="seat " points="1296.5,1428.815 1284,1407.164 1259,1407.164 1246.5,1428.815 1259,1450.466 1284,1450.466" />
+<polygon id="Basildon__Billericay" class="seat " points="1296.5,1428.815 1284,1407.164 1259,1407.164 1246.5,1428.815 1259,1450.466 1284,1450.466" />
 <polygon id="Rochford__Southend_East" class="seat " points="1371.5,1428.815 1359,1407.164 1334,1407.164 1321.5,1428.815 1334,1450.466 1359,1450.466" />
-<polygon id="Basion_South__Thurrock_East" class="seat " points="1334,1450.466 1321.5,1428.815 1296.5,1428.815 1284,1450.466 1296.5,1472.117 1321.5,1472.117" />
+<polygon id="Basildon_South__Thurrock_East" class="seat " points="1334,1450.466 1321.5,1428.815 1296.5,1428.815 1284,1450.466 1296.5,1472.117 1321.5,1472.117" />
 <polygon id="Castle_Point" class="seat " points="1371.5,1472.117 1359,1450.466 1334,1450.466 1321.5,1472.117 1334,1493.768 1359,1493.768" />
 <polygon id="Thurrock" class="seat " points="1334,1493.768 1321.5,1472.117 1296.5,1472.117 1284,1493.768 1296.5,1515.419 1321.5,1515.419" />
 </g>
 <g id="london">
 <polygon id="Chipping_Barnet" class="seat " points="1034,1320.56 1021.5,1298.909 996.5,1298.909 984,1320.56 996.5,1342.211 1021.5,1342.211" />
 <polygon id="Hendon" class="seat " points="996.5,1342.211 984,1320.56 959,1320.56 946.5,1342.211 959,1363.862 984,1363.862" />
-<polygon id="Enfie_Southgate" class="seat " points="1071.5,1342.211 1059,1320.56 1034,1320.56 1021.5,1342.211 1034,1363.862 1059,1363.862" />
+<polygon id="Enfield_Southgate" class="seat " points="1071.5,1342.211 1059,1320.56 1034,1320.56 1021.5,1342.211 1034,1363.862 1059,1363.862" />
 <polygon id="Harrow_East" class="seat " points="959,1363.862 946.5,1342.211 921.5,1342.211 909,1363.862 921.5,1385.513 946.5,1385.513" />
-<polygon id="Finchley__Goers_Green" class="seat " points="1034,1363.862 1021.5,1342.211 996.5,1342.211 984,1363.862 996.5,1385.513 1021.5,1385.513" />
-<polygon id="Enfie_North" class="seat " points="1109,1363.862 1096.5,1342.211 1071.5,1342.211 1059,1363.862 1071.5,1385.513 1096.5,1385.513" />
+<polygon id="Finchley__Golders_Green" class="seat " points="1034,1363.862 1021.5,1342.211 996.5,1342.211 984,1363.862 996.5,1385.513 1021.5,1385.513" />
+<polygon id="Enfield_North" class="seat " points="1109,1363.862 1096.5,1342.211 1071.5,1342.211 1059,1363.862 1071.5,1385.513 1096.5,1385.513" />
 <polygon id="Harrow_West" class="seat " points="921.5,1385.513 909,1363.862 884,1363.862 871.5,1385.513 884,1407.164 909,1407.164" />
 <polygon id="Brent_Central" class="seat " points="996.5,1385.513 984,1363.862 959,1363.862 946.5,1385.513 959,1407.164 984,1407.164" />
 <polygon id="Tottenham" class="seat " points="1071.5,1385.513 1059,1363.862 1034,1363.862 1021.5,1385.513 1034,1407.164 1059,1407.164" />
 <polygon id="Edmonton" class="seat " points="1146.5,1385.513 1134,1363.862 1109,1363.862 1096.5,1385.513 1109,1407.164 1134,1407.164" />
-<polygon id="Ruislip_Northwood__Pinner" class="seat " points="884,1407.164 871.5,1385.513 846.5,1385.513 834,1407.164 846.5,1428.815 871.5,1428.815" />
+<polygon id="Ruislip__Northwood__Pinner" class="seat " points="884,1407.164 871.5,1385.513 846.5,1385.513 834,1407.164 846.5,1428.815 871.5,1428.815" />
 <polygon id="Brent_North" class="seat " points="959,1407.164 946.5,1385.513 921.5,1385.513 909,1407.164 921.5,1428.815 946.5,1428.815" />
 <polygon id="Islington_North" class="seat " points="1034,1407.164 1021.5,1385.513 996.5,1385.513 984,1407.164 996.5,1428.815 1021.5,1428.815" />
 <polygon id="Walthamstow" class="seat " points="1109,1407.164 1096.5,1385.513 1071.5,1385.513 1059,1407.164 1071.5,1428.815 1096.5,1428.815" />
@@ -512,16 +526,16 @@
 <polygon id="Romford" class="seat " points="1296.5,1472.117 1284,1450.466 1259,1450.466 1246.5,1472.117 1259,1493.768 1284,1493.768" />
 <polygon id="Ealing_Southall" class="seat " points="884,1493.768 871.5,1472.117 846.5,1472.117 834,1493.768 846.5,1515.419 871.5,1515.419" />
 <polygon id="Kensington" class="seat " points="959,1493.768 946.5,1472.117 921.5,1472.117 909,1493.768 921.5,1515.419 946.5,1515.419" />
-<polygon id="Cities_Of_London__Westminster" class="seat " points="1034,1493.768 1021.5,1472.117 996.5,1472.117 984,1493.768 996.5,1515.419 1021.5,1515.419" />
+<polygon id="Cities_of_London__Westminster" class="seat " points="1034,1493.768 1021.5,1472.117 996.5,1472.117 984,1493.768 996.5,1515.419 1021.5,1515.419" />
 <polygon id="Poplar__Limehouse" class="seat " points="1109,1493.768 1096.5,1472.117 1071.5,1472.117 1059,1493.768 1071.5,1515.419 1096.5,1515.419" />
 <polygon id="Greenwich__Woolwich" class="seat " points="1184,1493.768 1171.5,1472.117 1146.5,1472.117 1134,1493.768 1146.5,1515.419 1171.5,1515.419" />
 <polygon id="Barking" class="seat " points="1259,1493.768 1246.5,1472.117 1221.5,1472.117 1209,1493.768 1221.5,1515.419 1246.5,1515.419" />
 <polygon id="Hayes__Harlington" class="seat " points="846.5,1515.419 834,1493.768 809,1493.768 796.5,1515.419 809,1537.07 834,1537.07" />
 <polygon id="Richmond_Park" class="seat " points="921.5,1515.419 909,1493.768 884,1493.768 871.5,1515.419 884,1537.07 909,1537.07" />
 <polygon id="Chelsea__Fulham" class="seat " points="996.5,1515.419 984,1493.768 959,1493.768 946.5,1515.419 959,1537.07 984,1537.07" />
-<polygon id="Bermondsey__O_Southwark" class="seat " points="1071.5,1515.419 1059,1493.768 1034,1493.768 1021.5,1515.419 1034,1537.07 1059,1537.07" />
+<polygon id="Bermondsey__Old_Southwark" class="seat " points="1071.5,1515.419 1059,1493.768 1034,1493.768 1021.5,1515.419 1034,1537.07 1059,1537.07" />
 <polygon id="Lewisham_Deptford" class="seat " points="1146.5,1515.419 1134,1493.768 1109,1493.768 1096.5,1515.419 1109,1537.07 1134,1537.07" />
-<polygon id="O_Bexley__Sidcup" class="seat " points="1221.5,1515.419 1209,1493.768 1184,1493.768 1171.5,1515.419 1184,1537.07 1209,1537.07" />
+<polygon id="Old_Bexley__Sidcup" class="seat " points="1221.5,1515.419 1209,1493.768 1184,1493.768 1171.5,1515.419 1184,1537.07 1209,1537.07" />
 <polygon id="Hornchurch__Upminster" class="seat " points="1296.5,1515.419 1284,1493.768 1259,1493.768 1246.5,1515.419 1259,1537.07 1284,1537.07" />
 <polygon id="Feltham__Heston" class="seat " points="884,1537.07 871.5,1515.419 846.5,1515.419 834,1537.07 846.5,1558.721 871.5,1558.721" />
 <polygon id="Hammersmith" class="seat " points="959,1537.07 946.5,1515.419 921.5,1515.419 909,1537.07 921.5,1558.721 946.5,1558.721" />
@@ -559,7 +573,7 @@
 <polygon id="Chesham__Amersham" class="seat " points="771.5,1428.815 759,1407.164 734,1407.164 721.5,1428.815 734,1450.466 759,1450.466" />
 <polygon id="Buckingham" class="seat " points="846.5,1428.815 834,1407.164 809,1407.164 796.5,1428.815 809,1450.466 834,1450.466" />
 <polygon id="Witney" class="seat " points="734,1450.466 721.5,1428.815 696.5,1428.815 684,1450.466 696.5,1472.117 721.5,1472.117" />
-<polygon id="Beasfie" class="seat " points="809,1450.466 796.5,1428.815 771.5,1428.815 759,1450.466 771.5,1472.117 796.5,1472.117" />
+<polygon id="Beaconsfield" class="seat " points="809,1450.466 796.5,1428.815 771.5,1428.815 759,1450.466 771.5,1472.117 796.5,1472.117" />
 <polygon id="Wycombe" class="seat " points="771.5,1472.117 759,1450.466 734,1450.466 721.5,1472.117 734,1493.768 759,1493.768" />
 <polygon id="Aylesbury" class="seat " points="734,1493.768 721.5,1472.117 696.5,1472.117 684,1493.768 696.5,1515.419 721.5,1515.419" />
 <polygon id="Slough" class="seat " points="809,1493.768 796.5,1472.117 771.5,1472.117 759,1493.768 771.5,1515.419 796.5,1515.419" />
@@ -581,33 +595,33 @@
 <polygon id="Bracknell" class="seat " points="771.5,1602.023 759,1580.372 734,1580.372 721.5,1602.023 734,1623.674 759,1623.674" />
 <polygon id="Esher__Walton" class="seat " points="846.5,1602.023 834,1580.372 809,1580.372 796.5,1602.023 809,1623.674 834,1623.674" />
 <polygon id="Tonbridge__Malling" class="seat " points="1221.5,1602.023 1209,1580.372 1184,1580.372 1171.5,1602.023 1184,1623.674 1209,1623.674" />
-<polygon id="Maidstone__The_Wea" class="seat " points="1296.5,1602.023 1284,1580.372 1259,1580.372 1246.5,1602.023 1259,1623.674 1284,1623.674" />
+<polygon id="Maidstone__The_Weald" class="seat " points="1296.5,1602.023 1284,1580.372 1259,1580.372 1246.5,1602.023 1259,1623.674 1284,1623.674" />
 <polygon id="Gillingham__Rainham" class="seat " points="1371.5,1602.023 1359,1580.372 1334,1580.372 1321.5,1602.023 1334,1623.674 1359,1623.674" />
 <polygon id="Thanet_North" class="seat " points="1446.5,1602.023 1434,1580.372 1409,1580.372 1396.5,1602.023 1409,1623.674 1434,1623.674" />
 <polygon id="Reading_West" class="seat " points="734,1623.674 721.5,1602.023 696.5,1602.023 684,1623.674 696.5,1645.325 721.5,1645.325" />
 <polygon id="Surrey_Heath" class="seat " points="809,1623.674 796.5,1602.023 771.5,1602.023 759,1623.674 771.5,1645.325 796.5,1645.325" />
 <polygon id="Sevenoaks" class="seat " points="1184,1623.674 1171.5,1602.023 1146.5,1602.023 1134,1623.674 1146.5,1645.325 1171.5,1645.325" />
 <polygon id="Tunbridge_Wells" class="seat " points="1259,1623.674 1246.5,1602.023 1221.5,1602.023 1209,1623.674 1221.5,1645.325 1246.5,1645.325" />
-<polygon id="Faversham__Mid_Kent" class="seat " points="1334,1623.674 1321.5,1602.023 1296.5,1602.023 1284,1623.674 1296.5,1645.325 1321.5,1645.325" />
+<polygon id="Faversham__Kent_Mid" class="seat " points="1334,1623.674 1321.5,1602.023 1296.5,1602.023 1284,1623.674 1296.5,1645.325 1321.5,1645.325" />
 <polygon id="Thanet_South" class="seat " points="1409,1623.674 1396.5,1602.023 1371.5,1602.023 1359,1623.674 1371.5,1645.325 1396.5,1645.325" />
 <polygon id="Hampshire_North_West" class="seat " points="696.5,1645.325 684,1623.674 659,1623.674 646.5,1645.325 659,1666.976 684,1666.976" />
 <polygon id="Hampshire_North_East" class="seat " points="771.5,1645.325 759,1623.674 734,1623.674 721.5,1645.325 734,1666.976 759,1666.976" />
 <polygon id="Mole_Valley" class="seat " points="846.5,1645.325 834,1623.674 809,1623.674 796.5,1645.325 809,1666.976 834,1666.976" />
 <polygon id="Epsom__Ewell" class="seat " points="921.5,1645.325 909,1623.674 884,1623.674 871.5,1645.325 884,1666.976 909,1666.976" />
 <polygon id="Surrey_East" class="seat " points="1146.5,1645.325 1134,1623.674 1109,1623.674 1096.5,1645.325 1109,1666.976 1134,1666.976" />
-<polygon id="Weaen" class="seat " points="1221.5,1645.325 1209,1623.674 1184,1623.674 1171.5,1645.325 1184,1666.976 1209,1666.976" />
+<polygon id="Wealden" class="seat " points="1221.5,1645.325 1209,1623.674 1184,1623.674 1171.5,1645.325 1184,1666.976 1209,1666.976" />
 <polygon id="Ashford" class="seat " points="1296.5,1645.325 1284,1623.674 1259,1623.674 1246.5,1645.325 1259,1666.976 1284,1666.976" />
 <polygon id="Dover" class="seat " points="1371.5,1645.325 1359,1623.674 1334,1623.674 1321.5,1645.325 1334,1666.976 1359,1666.976" />
 <polygon id="Wokingham" class="seat " points="734,1666.976 721.5,1645.325 696.5,1645.325 684,1666.976 696.5,1688.627 721.5,1688.627" />
 <polygon id="Woking" class="seat " points="809,1666.976 796.5,1645.325 771.5,1645.325 759,1666.976 771.5,1688.627 796.5,1688.627" />
-<polygon id="Guiford" class="seat " points="884,1666.976 871.5,1645.325 846.5,1645.325 834,1666.976 846.5,1688.627 871.5,1688.627" />
+<polygon id="Guildford" class="seat " points="884,1666.976 871.5,1645.325 846.5,1645.325 834,1666.976 846.5,1688.627 871.5,1688.627" />
 <polygon id="Reigate" class="seat " points="959,1666.976 946.5,1645.325 921.5,1645.325 909,1666.976 921.5,1688.627 946.5,1688.627" />
 <polygon id="Horsham" class="seat " points="1109,1666.976 1096.5,1645.325 1071.5,1645.325 1059,1666.976 1071.5,1688.627 1096.5,1688.627" />
 <polygon id="Sussex_Mid" class="seat " points="1184,1666.976 1171.5,1645.325 1146.5,1645.325 1134,1666.976 1146.5,1688.627 1171.5,1688.627" />
 <polygon id="Bexhill__Battle" class="seat " points="1259,1666.976 1246.5,1645.325 1221.5,1645.325 1209,1666.976 1221.5,1688.627 1246.5,1688.627" />
 <polygon id="Folkestone__Hythe" class="seat " points="1334,1666.976 1321.5,1645.325 1296.5,1645.325 1284,1666.976 1296.5,1688.627 1321.5,1688.627" />
 <polygon id="Romsey__Southampton_North" class="seat " points="696.5,1688.627 684,1666.976 659,1666.976 646.5,1688.627 659,1710.278 684,1710.278" />
-<polygon id="Aershot" class="seat " points="771.5,1688.627 759,1666.976 734,1666.976 721.5,1688.627 734,1710.278 759,1710.278" />
+<polygon id="Aldershot" class="seat " points="771.5,1688.627 759,1666.976 734,1666.976 721.5,1688.627 734,1710.278 759,1710.278" />
 <polygon id="Surrey_South_West" class="seat " points="846.5,1688.627 834,1666.976 809,1666.976 796.5,1688.627 809,1710.278 834,1710.278" />
 <polygon id="Hampshire_East" class="seat " points="921.5,1688.627 909,1666.976 884,1666.976 871.5,1688.627 884,1710.278 909,1710.278" />
 <polygon id="Crawley" class="seat " points="996.5,1688.627 984,1666.976 959,1666.976 946.5,1688.627 959,1710.278 984,1710.278" />
@@ -635,13 +649,13 @@
 <polygon id="Gosport" class="seat " points="884,1753.58 871.5,1731.929 846.5,1731.929 834,1753.58 846.5,1775.231 871.5,1775.231" />
 <polygon id="New_Forest_West" class="seat " points="696.5,1775.231 684,1753.58 659,1753.58 646.5,1775.231 659,1796.882 684,1796.882" />
 <polygon id="Fareham" class="seat " points="846.5,1775.231 834,1753.58 809,1753.58 796.5,1775.231 809,1796.882 834,1796.882" />
-<polygon id="Isle_Of_Wight" class="seat " points="771.5,1818.533 759,1796.882 734,1796.882 721.5,1818.533 734,1840.184 759,1840.184" />
+<polygon id="Isle_of_Wight" class="seat " points="771.5,1818.533 759,1796.882 734,1796.882 721.5,1818.533 734,1840.184 759,1840.184" />
 </g>
 <g id="south-west">
 <polygon id="Cheltenham" class="seat " points="696.5,1428.815 684,1407.164 659,1407.164 646.5,1428.815 659,1450.466 684,1450.466" />
 <polygon id="Tewkesbury" class="seat " points="659,1450.466 646.5,1428.815 621.5,1428.815 609,1450.466 621.5,1472.117 646.5,1472.117" />
-<polygon id="Forest_Of_Dean" class="seat " points="621.5,1472.117 609,1450.466 584,1450.466 571.5,1472.117 584,1493.768 609,1493.768" />
-<polygon id="Cotswos_The" class="seat " points="696.5,1472.117 684,1450.466 659,1450.466 646.5,1472.117 659,1493.768 684,1493.768" />
+<polygon id="Forest_of_Dean" class="seat " points="621.5,1472.117 609,1450.466 584,1450.466 571.5,1472.117 584,1493.768 609,1493.768" />
+<polygon id="Cotswolds__The" class="seat " points="696.5,1472.117 684,1450.466 659,1450.466 646.5,1472.117 659,1493.768 684,1493.768" />
 <polygon id="Gloucester" class="seat " points="659,1493.768 646.5,1472.117 621.5,1472.117 609,1493.768 621.5,1515.419 646.5,1515.419" />
 <polygon id="Thornbury__Yate" class="seat " points="621.5,1515.419 609,1493.768 584,1493.768 571.5,1515.419 584,1537.07 609,1537.07" />
 <polygon id="Swindon_North" class="seat " points="696.5,1515.419 684,1493.768 659,1493.768 646.5,1515.419 659,1537.07 684,1537.07" />
@@ -663,7 +677,7 @@
 <polygon id="Wells" class="seat " points="471.5,1688.627 459,1666.976 434,1666.976 421.5,1688.627 434,1710.278 459,1710.278" />
 <polygon id="Wiltshire_South_West" class="seat " points="546.5,1688.627 534,1666.976 509,1666.976 496.5,1688.627 509,1710.278 534,1710.278" />
 <polygon id="Bournemouth_West" class="seat " points="621.5,1688.627 609,1666.976 584,1666.976 571.5,1688.627 584,1710.278 609,1710.278" />
-<polygon id="Bridgwater__West_Somerset" class="seat " points="434,1710.278 421.5,1688.627 396.5,1688.627 384,1710.278 396.5,1731.929 421.5,1731.929" />
+<polygon id="Bridgwater__Somerset_West" class="seat " points="434,1710.278 421.5,1688.627 396.5,1688.627 384,1710.278 396.5,1731.929 421.5,1731.929" />
 <polygon id="Somerton__Frome" class="seat " points="509,1710.278 496.5,1688.627 471.5,1688.627 459,1710.278 471.5,1731.929 496.5,1731.929" />
 <polygon id="Dorset_North" class="seat " points="584,1710.278 571.5,1688.627 546.5,1688.627 534,1710.278 546.5,1731.929 571.5,1731.929" />
 <polygon id="Salisbury" class="seat " points="659,1710.278 646.5,1688.627 621.5,1688.627 609,1710.278 621.5,1731.929 646.5,1731.929" />
@@ -709,6 +723,138 @@
 </g>
 </g>
 </svg>
+<div style="position:absolute; left:750px; top:50px;">
+<h1>Election Results</h1>
+<table>
+	<tr>
+		<td>Party</td>
+		<td>2010 seats</td>
+		<td>2010 &#37;</td>
+		<td>2015 seats</td>
+		<td>2015 &#37;</td>
+		<td>Seat &#177;</td>
+		<td>&#37; &#177;</td>
+	</tr>
+	<tr>
+		<td>Conversative</td>
+		<td id="conseat2010"></td>
+		<td id="convote2010"></td>
+		<td id="conseat2015"></td>
+		<td id="convote2015"></td>
+		<td id="conseatvariance"></td>
+		<td id="convotevariance"></td>
+	</tr>
+	<tr>
+		<td>Labour</td>
+		<td id="labseat2010"></td>
+		<td id="labvote2010"></td>
+		<td id="labseat2015"></td>
+		<td id="labvote2015"></td>
+		<td id="labseatvariance"></td>
+		<td id="labvotevariance"></td>
+	</tr>
+	<tr>
+		<td>Liberal Democrats</td>
+		<td id="ldseat2010"></td>
+		<td id="ldvote2010"></td>
+		<td id="ldseat2015"></td>
+		<td id="ldvote2015"></td>
+		<td id="ldseatvariance"></td>
+		<td id="ldvotevariance"></td>
+	</tr>
+	<tr>
+		<td>SNP</td>
+		<td id="snpseat2010"></td>
+		<td id="snpvote2010"></td>
+		<td id="snpseat2015"></td>
+		<td id="snpvote2015"></td>
+		<td id="snpseatvariance"></td>
+		<td id="snpvotevariance"></td>
+	</tr>
+	<tr>
+		<td>UKIP</td>
+		<td id="ukipseat2010"></td>
+		<td id="ukipvote2010"></td>
+		<td id="ukipseat2015"></td>
+		<td id="ukipvote2015"></td>
+		<td id="ukipseatvariance"></td>
+		<td id="ukipvotevariance"></td>
+	</tr>
+	<tr>
+		<td>Plaid Cymru</td>
+		<td id="pcseat2010"></td>
+		<td id="pcvote2010"></td>
+		<td id="pcseat2015"></td>
+		<td id="pcvote2015"></td>
+		<td id="pcseatvariance"></td>
+		<td id="pcvotevariance"></td>
+	</tr>
+	<tr>
+		<td>Sinn Fein</td>
+		<td id="sfseat2010"></td>
+		<td id="sfvote2010"></td>
+		<td id="sfseat2015"></td>
+		<td id="sfvote2015"></td>
+		<td id="sfseatvariance"></td>
+		<td id="sfvotevariance"></td>
+	</tr>
+	<tr>
+		<td>DUP</td>
+		<td id="dupseat2010"></td>
+		<td id="dupvote2010"></td>
+		<td id="dupseat2015"></td>
+		<td id="dupvote2015"></td>
+		<td id="dupseatvariance"></td>
+		<td id="dupvotevariance"></td>
+	</tr>
+	<tr>
+		<td>APNI</td>
+		<td id="apseat2010"></td>
+		<td id="apvote2010"></td>
+		<td id="apseat2015"></td>
+		<td id="apvote2015"></td>
+		<td id="apseatvariance"></td>
+		<td id="apvotevariance"></td>
+	</tr>
+	<tr>
+		<td>SDLP</td>
+		<td id="sdlpseat2010"></td>
+		<td id="sdlpvote2010"></td>
+		<td id="sdlpseat2015"></td>
+		<td id="sdlpvote2015"></td>
+		<td id="sdlpseatvariance"></td>
+		<td id="sdlpvotevariance"></td>
+	</tr>
+	<tr>
+		<td>Green</td>
+		<td id="grnseat2010"></td>
+		<td id="grnvote2010"></td>
+		<td id="grnseat2015"></td>
+		<td id="grnvote2015"></td>
+		<td id="grnseatvariance"></td>
+		<td id="grnvotevariance"></td>
+	</tr>
+	<tr>
+		<td>Independent</td>
+		<td id="indseat2010"></td>
+		<td id="indvote2010"></td>
+		<td id="indseat2015"></td>
+		<td id="indvote2015"></td>
+		<td id="indseatvariance"></td>
+		<td id="indvotevariance"></td>
+	</tr>
+	<tr>
+		<td>Other</td>
+		<td id="othseat2010"></td>
+		<td id="othvote2010"></td>
+		<td id="othseat2015"></td>
+		<td id="othvote2015"></td>
+		<td id="othseatvariance"></td>
+		<td id="othvotevariance"></td>
+	</tr>
+</table>
+</div>
+</div>
 <script type="text/javascript">
 
 //var url = "http://en.wikipedia.org/w/api.php?format=json&action=query&titles=Results_of_the_2010_United_Kingdom_general_election_by_parliamentary_stituency&prop=revisions&rvprop=tent";
@@ -717,7 +863,39 @@ $.getJSON( url, function( data ) {
 pagecontent = data.query.pages[32049983].revisions[0]['*'].split('(UK Parliament constituency)');
 
 var dataset = [];
-for (i = 1; i < 650; i++) { 
+
+var conseat = 0;
+var labseat = 0;
+var ldseat = 0;
+var snpseat = 0;
+var pcseat = 0;
+var ukipseat = 0;
+var sfseat = 0;
+var apseat = 0;
+var dupseat = 0;
+var grnseat = 0;
+var sdlpseat = 0;
+var indseat = 0;
+
+var convote = 0;
+var labvote = 0;
+var ldvote = 0;
+var snpvote = 0;
+var pcvote = 0;
+var ukipvote = 0;
+var sfvote = 0;
+var apvote = 0;
+var dupvote = 0;
+var grnvote = 0;
+var sdlpvote = 0;
+var indvote = 0;
+var othvote = 0;
+
+var totalpolled = 0;
+
+var j = 9;
+
+for (i = 1; i <= 650; i++) { 
 	if(pagecontent[i].split("|")[8] == "") {j=9} else {j=11};
     dataset.push({
     	constituencyname:pagecontent[i].substring(1,pagecontent[i].indexOf("]")),
@@ -735,16 +913,149 @@ for (i = 1; i < 650; i++) {
     	ucunf:pagecontent[i].split("|")[j+22],
     	ind:pagecontent[i].split("|")[j+24],
     	other:pagecontent[i].split("|")[j+26],
+    	validvotes:pagecontent[i].split("|")[j+28],
     	totalpolled:pagecontent[i].split("|")[j+32],
     	electorate:pagecontent[i].split("|")[j+34],
     	winner:pagecontent[i].split("|")[j+43].substring(pagecontent[i].split("|")[j+43].indexOf("[")+2)
 
     });
-    //if(pagecontent[i].split("|")[j+43].substring(pagecontent[i].split("|")[j+43].indexOf("[")+2) == "Labour Party (UK)") {
-    //}
+    cnameparsed = "#"+pagecontent[i].substring(1,pagecontent[i].indexOf("]")).replace(/ &/g,"_").replace(/ /g,"_").replace(/,/g,"_").replace("(","_").replace(")","_");
+
+    //partynameparsed = pagecontent[i].split("|")[j+43].substring(pagecontent[i].split("|")[j+43].indexOf("[")+2);
+    partynameparsed = pagecontent[i].split("|")[j+43].replace(/[[\]]/g, "");
+
+    convote += Number(pagecontent[i].split("|")[j].replace(",",""));
+    labvote += Number(pagecontent[i].split("|")[j+2].replace(",",""));
+    ldvote += Number(pagecontent[i].split("|")[j+4].replace(",",""));
+    snpvote += Number(pagecontent[i].split("|")[j+10].replace(",",""));
+    pcvote += Number(pagecontent[i].split("|")[j+18].replace(",",""));
+    sfvote += Number(pagecontent[i].split("|")[j+14].replace(",",""));
+    dupvote += Number(pagecontent[i].split("|")[j+16].replace(",",""));
+    sdlpvote += Number(pagecontent[i].split("|")[j+20].replace(",",""));
+    grnvote += Number(pagecontent[i].split("|")[j+12].replace(",",""));
+    indvote += Number(pagecontent[i].split("|")[j+24].replace(",",""));
+    ukipvote += Number(pagecontent[i].split("|")[j+6].replace(",",""));
+    othvote += Number(pagecontent[i].split("|")[j+26].replace(",",""));
+
+
+    if(partynameparsed == "Conservative Party (UK)") {
+    	$(cnameparsed).attr("class", "seat2010 con");
+    	conseat += 1;
+    }
+    else if(partynameparsed == "Labour Party (UK)") {
+    	$(cnameparsed).attr("class", "seat2010 lab");
+    	labseat += 1;
+    	
+    }
+    else if(partynameparsed == "Liberal Democrats") {
+    	$(cnameparsed).attr("class", "seat2010 ld");
+    	ldseat += 1;
+    	
+    }
+    else if(partynameparsed == "Scottish National Party") {
+    	$(cnameparsed).attr("class", "seat2010 snp");
+    	snpseat += 1;
+    	
+    }
+    else if(partynameparsed == "Plaid Cymru") {
+    	$(cnameparsed).attr("class", "seat2010 pc");
+    	pcseat += 1;
+    	
+    }
+    else if(partynameparsed == "Sinn F\u00e9in") {
+    	$(cnameparsed).attr("class", "seat2010 sf");
+    	sfseat += 1;
+    	
+    }
+    else if(partynameparsed == "Democratic Unionist Party") {
+    	$(cnameparsed).attr("class", "seat2010 dup");
+    	dupseat += 1;
+    	
+    }
+    else if(partynameparsed == "Alliance Party of Northern Ireland") {
+    	$(cnameparsed).attr("class", "seat2010 ap");
+    	apseat += 1;
+    	
+    }
+    else if(partynameparsed == "Social Democratic and Labour Party") {
+    	$(cnameparsed).attr("class", "seat2010 sf");
+    	sdlpseat += 1;
+    	
+    }
+    else if(partynameparsed == "Green Party of England and Wales") {
+    	$(cnameparsed).attr("class", "seat2010 grn");
+    	grnseat += 1;
+    	
+    }
+    else if(partynameparsed == "Spk\n") {
+    	$(cnameparsed).attr("class", "seat2010 ind");
+    }
+    else if(partynameparsed == "Ind\n") {
+    	$(cnameparsed).attr("class", "seat2010 ind");
+    	indseat += 1;
+    	
+    }
+    else {console.log(cnameparsed + "|" + partynameparsed) }
+
+    totalpolled += Number(pagecontent[i].split("|")[j+28].replace(",",""));
+
+    //By Elections
+	$("#Bradford_West").attr("class", "seat2010 ind");
+	$("#Corby").attr("class", "seat2010 lab");
+	$("#Clacton").attr("class", "seat2010 ukip");
+	$("#Rochester__Strood").attr("class", "seat2010 ukip");
     
-    $( "polygon" ).addClass( "lab" );
+    //if(partynameparsed == "Democratic Unionist Party") {
+    //}
+
+
 
 }
+
+    //Update stats
+    $("#conseat2010").html(conseat);
+    $("#labseat2010").html(labseat);
+    $("#ldseat2010").html(ldseat);
+    $("#snpseat2010").html(snpseat);
+    $("#pcseat2010").html(snpseat);
+    $("#sfseat2010").html(sfseat);
+    $("#dupseat2010").html(dupseat);
+    $("#sdlpseat2010").html(sdlpseat);
+    $("#apseat2010").html(apseat);
+    $("#indseat2010").html(indseat);
+    $("#grnseat2010").html(grnseat);
+    $("#ukipseat2010").html(ukipseat);
+    $("#othseat2010").html("0");
+
+    $("#convote2010").html(((convote / totalpolled)*100).toFixed(2));
+    $("#labvote2010").html(((labvote / totalpolled)*100).toFixed(2));
+    $("#ldvote2010").html(((ldvote / totalpolled)*100).toFixed(2));
+    $("#snpvote2010").html(((snpvote / totalpolled)*100).toFixed(2));
+    $("#pcvote2010").html(((pcvote / totalpolled)*100).toFixed(2));
+    $("#sfvote2010").html(((sfvote / totalpolled)*100).toFixed(2));
+    $("#dupvote2010").html(((dupvote / totalpolled)*100).toFixed(2));
+    $("#sdlpvote2010").html(((sdlpvote / totalpolled)*100).toFixed(2));
+    $("#apvote2010").html(((apvote / totalpolled)*100).toFixed(2));
+    $("#indvote2010").html(((indvote / totalpolled)*100).toFixed(2));
+    $("#grnvote2010").html(((grnvote / totalpolled)*100).toFixed(2));
+    $("#ukipvote2010").html(((ukipvote / totalpolled)*100).toFixed(2));
+    $("#othvote2010").html(((othvote / totalpolled)*100).toFixed(2));
+
+    $("#conseat2010").html(conseat);
+    $("#labseat2010").html(labseat);
+    $("#ldseat2010").html(ldseat);
+    $("#snpseat2010").html(snpseat);
+    $("#pcseat2010").html(snpseat);
+    $("#sfseat2010").html(sfseat);
+    $("#dupseat2010").html(dupseat);
+    $("#sdlpseat2010").html(sdlpseat);
+    $("#apseat2010").html(apseat);
+    $("#indseat2010").html(indseat);
+    $("#grnseat2010").html(grnseat);
+    $("#ukipseat2010").html(ukipseat);
+
+   console.log(convote + "|" + totalpolled + "|" + parseInt((convote / totalpolled)*100))
+
 });
+
 </script>
